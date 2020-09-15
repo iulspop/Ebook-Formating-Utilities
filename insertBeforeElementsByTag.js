@@ -4,3 +4,6 @@ function insertBeforeElementsByTag(tagName, tagToInsert) {
       element.insertAdjacentHTML('beforebegin', tagToInsert)
   }
 }
+
+insertBeforeElementsByTag('h1', '<hr>')
+insertBeforeElementsByTag('h2', '<hr>')
